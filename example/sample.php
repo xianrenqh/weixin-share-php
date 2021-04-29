@@ -1,6 +1,6 @@
 <?php
 require_once "JSSDK.php";
-$jssdk = new JSSDK("yourAppID", "yourAppSecret");
+$jssdk = new ShareH5("yourAppID", "yourAppSecret");
 $signPackage = $jssdk->GetSignPackage();
 ?>
 <!DOCTYPE html>
